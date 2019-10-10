@@ -20,7 +20,7 @@ $info = new InfoCatalogue('products.json');
 </head>
 <body>
     <div class="wrapper">
-        <h2 class="webshop__title">My first webshop <a href="cart.php" class="cart-icon">Winkelmandje</a></h2>
+        <a href="index.php"><h2 class="webshop__title">My first webshop </a><a href="cart.php" class="cart-icon">Winkelmandje</a></h2>
         <div class="info__content">
             <?php foreach ($info->getProduct() as $product): ?>
                 <div class="product">

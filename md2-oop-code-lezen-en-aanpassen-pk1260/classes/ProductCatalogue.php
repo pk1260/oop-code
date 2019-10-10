@@ -44,7 +44,7 @@ class ProductCatalogue
     {
 
         foreach ($this->products as $product) {
-            if ($product->getCode() == $code) {
+            if ($product->getCode() === $code) {
                 return $product;
             }
         }
